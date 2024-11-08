@@ -27,7 +27,7 @@ global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "available";
+global.waPresence = process.env.WAPRESENCE || "false";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -51,8 +51,8 @@ module.exports = {
   caption: process.env.CAPTION || "©zᴀxᴍᴅ",
   author: process.env.PACK_AUTHER || "zᴀx-ᴍᴅ",
   packname: process.env.PACK_NAME || "zᴀx-bot",
-  botname: process.env.BOT_NAME || "zᴀx ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "MrXhriss",
+  botname: process.env.BOT_NAME || "DHANA-MD",
+  ownername: process.env.OWNER_NAME || "DHANA",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
